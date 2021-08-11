@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./main.css" >
+    <title>form</title>
+</head>
+<body>
+
+    <form action="#">
+        <div>
+            <label for="firstname">First name :</label>
+            <input type="text" name="firstname" value="" id="f-name">
+        </div>
+        <div>
+            <label for="secondname">Second name :</label>
+            <input type="text" name="secondname" value="" id="s-name" >
+        </div>
+        <div>
+            <label for="email">Email address :</label>
+            <input type="email" name="firstname" value="" id="email" >
+        </div>
+        <div>
+            <label for="age">Age :</label>
+            <input type="text" name="age" value="" id="taman">
+        </div>
+        <div id="genders">
+            <p>Gender :</p>
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" class="gender" value="Male" ><br>
+            <hr class="hr">
+            <label for="female">Female</label>
+            <input type="radio" name="gender"  class="gender" value="Female" ><br>
+            <hr class="hr">
+            <label for="other">Other</label>
+            <input type="radio" name="gender"  class="gender" value="Other" >
+        </div>
+        <div>
+            <label for="city">City</label>
+            <select name="city" id="city">
+                <option value="...">choose city...</option>
+                <option value="Sulaymanyah">Sulayanyah</option>
+                <option value="Erbil">Erbil</option>
+                <option value="Duhok">Duhok</option>
+                <option value="Kirkuk">Kirkuk</option>
+                <option value="Halabja">Halabja</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div>
+            <label for="student">Student</label>
+            <input type="checkbox" name="student" id="student">
+        </div>
+  
+        <button id="button">Send</button>
+    </form>
+    <div id="infos">
+        <div>
+            <p>Full name :</p> 
+            <p id="fullname" class="jwab"></p>           
+        </div>
+        <div>
+            <p>Email-address:</p> 
+            <p id="email-address"class="jwab"></p>           
+        </div>        
+        <div>
+            <p>Age :</p> 
+            <p id="age"class="jwab"></p>           
+        </div>
+        <div>
+            <p>Gender :</p>
+            <p id="ragaz"class="jwab"></p>
+        </div>
+        <div>
+            <p>City :</p>
+            <p id="citys"class="jwab"></p>
+        </div>
+        <div>
+            <p>Student ?</p>
+            <p id="is-student"class="jwab"></p>
+        </div>
+        
+
+    </div>
+
+
+
+    <script rel="main.js" type="text/javascript" src="./main.js" ></script>
+</body>
+</html>
